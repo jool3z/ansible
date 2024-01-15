@@ -3,7 +3,7 @@
   hosts: all
   gather_facts: false
   tasks:
-    - name: Update and upgrade evrything
+    - name: Update and upgrade everything
       apt:
         update_cache: yes
         upgrade: dist
