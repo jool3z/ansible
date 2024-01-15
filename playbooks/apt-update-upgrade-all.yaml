@@ -1,0 +1,9 @@
+---
+- name: Update really evrything on Debian
+  hosts: [debian]
+  gather_facts: false
+  tasks:
+    - name: Update and upgrade evrything
+      apt:
+        update_cache: yes
+        upgrade: dist
