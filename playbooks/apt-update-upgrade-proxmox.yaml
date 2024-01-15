@@ -1,6 +1,6 @@
 ---
 - name: Update really evrything on Debian
-  hosts: [proxmox]
+  hosts: all
   gather_facts: false
   tasks:
     - name: Update and upgrade evrything
